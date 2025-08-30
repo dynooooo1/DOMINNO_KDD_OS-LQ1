@@ -1,0 +1,250 @@
+Microsoft Windows [Version 10.0.26100.4946]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\dylan>cd downloads
+
+C:\Users\dylan\Downloads>mkdir DOMINNO_KDD_OS-LQ1
+
+C:\Users\dylan\Downloads>cd DOMINNO_KDD_OS-LQ1
+
+C:\Users\dylan\Downloads\DOMINNO_KDD_OS-LQ1>mkdir "src" "common" "installer" "cache" "user"
+
+C:\Users\dylan\Downloads\DOMINNO_KDD_OS-LQ1>cd src
+
+C:\Users\dylan\Downloads\DOMINNO_KDD_OS-LQ1\src>mkdir a\b\c\d\e\f\g
+
+C:\Users\dylan\Downloads\DOMINNO_KDD_OS-LQ1\src>cd..
+
+C:\Users\dylan\Downloads\DOMINNO_KDD_OS-LQ1>cd common
+
+C:\Users\dylan\Downloads\DOMINNO_KDD_OS-LQ1\common>mkdir h\i\j\k\l\m
+
+C:\Users\dylan\Downloads\DOMINNO_KDD_OS-LQ1\common>cd..
+
+C:\Users\dylan\Downloads\DOMINNO_KDD_OS-LQ1>cd installer
+
+C:\Users\dylan\Downloads\DOMINNO_KDD_OS-LQ1\installer>mkdir installer_folder
+
+C:\Users\dylan\Downloads\DOMINNO_KDD_OS-LQ1\installer>cd..
+
+C:\Users\dylan\Downloads\DOMINNO_KDD_OS-LQ1>cd cache
+
+C:\Users\dylan\Downloads\DOMINNO_KDD_OS-LQ1\cache>mkdir "a" "b" "c" "d" "e" "f" "g" "h" "i" "j" "k" "l" "m" "n" "o" "p" "q" "r" "s" "t" "u" "v" "w" "x" "y""z"
+
+C:\Users\dylan\Downloads\DOMINNO_KDD_OS-LQ1\cache>mkdir "1" "2" "3" "4" "5" "6" "7" "8" "9" "10"
+
+C:\Users\dylan\Downloads\DOMINNO_KDD_OS-LQ1\cache>cd..
+
+C:\Users\dylan\Downloads\DOMINNO_KDD_OS-LQ1>cd user
+
+C:\Users\dylan\Downloads\DOMINNO_KDD_OS-LQ1\user>mkdir "user_jerico" "user_eliza" "user_juan"
+
+C:\Users\dylan\Downloads\DOMINNO_KDD_OS-LQ1\user>cd user_jerico
+
+C:\Users\dylan\Downloads\DOMINNO_KDD_OS-LQ1\user\user_jerico>mkdir "user_profile" "user_settings" "user_preferences"
+
+C:\Users\dylan\Downloads\DOMINNO_KDD_OS-LQ1\user\user_jerico>cd user_profile
+
+C:\Users\dylan\Downloads\DOMINNO_KDD_OS-LQ1\user\user_jerico\user_profile>mkdir "jerico estabillo"
+
+C:\Users\dylan\Downloads\DOMINNO_KDD_OS-LQ1\user\user_jerico\user_profile>cd..
+
+C:\Users\dylan\Downloads\DOMINNO_KDD_OS-LQ1\user\user_jerico>cd user_settings
+
+C:\Users\dylan\Downloads\DOMINNO_KDD_OS-LQ1\user\user_jerico\user_settings>mkdir "OSversion" "AppVersion"
+
+C:\Users\dylan\Downloads\DOMINNO_KDD_OS-LQ1\user\user_jerico\user_settings>cd..
+
+C:\Users\dylan\Downloads\DOMINNO_KDD_OS-LQ1\user\user_jerico>cd..
+
+C:\Users\dylan\Downloads\DOMINNO_KDD_OS-LQ1\user>xcopy "user_jerico" "user_eliza" /E /I
+0 File(s) copied
+
+C:\Users\dylan\Downloads\DOMINNO_KDD_OS-LQ1\user>xcopy "user_jerico" "user_juan" /E /I
+0 File(s) copied
+
+C:\Users\dylan\Downloads\DOMINNO_KDD_OS-LQ1\user>cd user_eliza
+
+C:\Users\dylan\Downloads\DOMINNO_KDD_OS-LQ1\user\user_eliza>cd user_profile
+
+C:\Users\dylan\Downloads\DOMINNO_KDD_OS-LQ1\user\user_eliza\user_profile>ren "jerico estabillo" "Eliza Taylor"
+
+C:\Users\dylan\Downloads\DOMINNO_KDD_OS-LQ1\user\user_eliza\user_profile>cd..
+
+C:\Users\dylan\Downloads\DOMINNO_KDD_OS-LQ1\user\user_eliza>cd..
+
+C:\Users\dylan\Downloads\DOMINNO_KDD_OS-LQ1\user>cd user_juan
+
+C:\Users\dylan\Downloads\DOMINNO_KDD_OS-LQ1\user\user_juan>cd user_profile
+
+C:\Users\dylan\Downloads\DOMINNO_KDD_OS-LQ1\user\user_juan\user_profile>ren "jerico estabillo" "Juan Pablo"
+
+C:\Users\dylan\Downloads\DOMINNO_KDD_OS-LQ1\user\user_juan\user_profile>cd..
+
+C:\Users\dylan\Downloads\DOMINNO_KDD_OS-LQ1\user\user_juan>cd..
+
+C:\Users\dylan\Downloads\DOMINNO_KDD_OS-LQ1\user>cd user_jerico
+
+C:\Users\dylan\Downloads\DOMINNO_KDD_OS-LQ1\user\user_jerico>cd user_settings
+
+C:\Users\dylan\Downloads\DOMINNO_KDD_OS-LQ1\user\user_jerico\user_settings>cd AppVersion
+
+C:\Users\dylan\Downloads\DOMINNO_KDD_OS-LQ1\user\user_jerico\user_settings\AppVersion>mkdir "sampleApp_v2" "sampleAppv3" "sampleApp_V5"
+
+C:\Users\dylan\Downloads\DOMINNO_KDD_OS-LQ1\user\user_jerico\user_settings\AppVersion>cd..
+
+C:\Users\dylan\Downloads\DOMINNO_KDD_OS-LQ1\user\user_jerico\user_settings>cd..
+
+C:\Users\dylan\Downloads\DOMINNO_KDD_OS-LQ1\user\user_jerico>cd..
+
+C:\Users\dylan\Downloads\DOMINNO_KDD_OS-LQ1\user>move "user_jerico\user_settings\AppVersion\sampleAppv3" "user-eliza\user_settings\"
+The system cannot find the path specified.
+        0 dir(s) moved.
+
+C:\Users\dylan\Downloads\DOMINNO_KDD_OS-LQ1\user>move "user_jerico\user_settings\AppVersion\sampleAppv3" "user_eliza\user_settings\"
+        1 dir(s) moved.
+
+C:\Users\dylan\Downloads\DOMINNO_KDD_OS-LQ1\user>move "user_jerico\user_settings\AppVersion\sampleApp_V5" "user_juan\user_settings\"
+        1 dir(s) moved.
+
+C:\Users\dylan\Downloads\DOMINNO_KDD_OS-LQ1\user>cd user_jerico
+
+C:\Users\dylan\Downloads\DOMINNO_KDD_OS-LQ1\user\user_jerico>cd user_settings
+
+C:\Users\dylan\Downloads\DOMINNO_KDD_OS-LQ1\user\user_jerico\user_settings>cd..
+
+C:\Users\dylan\Downloads\DOMINNO_KDD_OS-LQ1\user\user_jerico>cd..
+
+C:\Users\dylan\Downloads\DOMINNO_KDD_OS-LQ1\user>rmdir /s /q "user_jerico\user_settings\OSVersion
+
+C:\Users\dylan\Downloads\DOMINNO_KDD_OS-LQ1\user>rmdir /s /q "user_eliza\user_settings\OSVersion
+
+C:\Users\dylan\Downloads\DOMINNO_KDD_OS-LQ1\user>rmdir /s /q "user_juan\user_settings\OSVersion
+
+C:\Users\dylan\Downloads\DOMINNO_KDD_OS-LQ1\user>cd..
+
+C:\Users\dylan\Downloads\DOMINNO_KDD_OS-LQ1>move "user_preferences" "installer\mode"
+The system cannot find the file specified.
+
+C:\Users\dylan\Downloads\DOMINNO_KDD_OS-LQ1>cd user
+
+C:\Users\dylan\Downloads\DOMINNO_KDD_OS-LQ1\user>move "user_preferences" "installer\mode"
+The system cannot find the file specified.
+
+C:\Users\dylan\Downloads\DOMINNO_KDD_OS-LQ1\user>cd..
+
+C:\Users\dylan\Downloads\DOMINNO_KDD_OS-LQ1>ren "user_jerico"\user_preferences" "mode"
+The syntax of the command is incorrect.
+
+C:\Users\dylan\Downloads\DOMINNO_KDD_OS-LQ1>rename "user_jerico\user_preferences" "mode"
+The system cannot find the file specified.
+
+C:\Users\dylan\Downloads\DOMINNO_KDD_OS-LQ1>move "user\user_jerico\user_preferences" "installer\mode"
+        1 dir(s) moved.
+
+C:\Users\dylan\Downloads\DOMINNO_KDD_OS-LQ1>move "user\user_eliza\user_preferences" "installer\mode"
+        1 dir(s) moved.
+
+C:\Users\dylan\Downloads\DOMINNO_KDD_OS-LQ1>move "user\user_juan\user_preferences" "installer\mode"
+Overwrite C:\Users\dylan\Downloads\DOMINNO_KDD_OS-LQ1\installer\mode\user_preferences? (Yes/No/All): y
+Access is denied.
+
+C:\Users\dylan\Downloads\DOMINNO_KDD_OS-LQ1>yes
+'yes' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\dylan\Downloads\DOMINNO_KDD_OS-LQ1>move "user\user_juan\user_preferences" "installer\mode"
+Overwrite C:\Users\dylan\Downloads\DOMINNO_KDD_OS-LQ1\installer\mode\user_preferences? (Yes/No/All): Yes
+Access is denied.
+
+C:\Users\dylan\Downloads\DOMINNO_KDD_OS-LQ1>move /Y "user\user_juan\user_preferences" "installer\mode"
+Access is denied.
+
+C:\Users\dylan\Downloads\DOMINNO_KDD_OS-LQ1>move user\user_juan\user_preferences installer\mode
+Overwrite C:\Users\dylan\Downloads\DOMINNO_KDD_OS-LQ1\installer\mode\user_preferences? (Yes/No/All): /Y
+Overwrite C:\Users\dylan\Downloads\DOMINNO_KDD_OS-LQ1\installer\mode\user_preferences? (Yes/No/All): /Y
+Overwrite C:\Users\dylan\Downloads\DOMINNO_KDD_OS-LQ1\installer\mode\user_preferences? (Yes/No/All): Y
+Access is denied.
+
+C:\Users\dylan\Downloads\DOMINNO_KDD_OS-LQ1>tree
+Folder PATH listing for volume Windows
+Volume serial number is 5003-F7C6
+C:.
+├───cache
+│   ├───1
+│   ├───10
+│   ├───2
+│   ├───3
+│   ├───4
+│   ├───5
+│   ├───6
+│   ├───7
+│   ├───8
+│   ├───9
+│   ├───a
+│   ├───b
+│   ├───c
+│   ├───d
+│   ├───e
+│   ├───f
+│   ├───g
+│   ├───h
+│   ├───i
+│   ├───j
+│   ├───k
+│   ├───l
+│   ├───m
+│   ├───n
+│   ├───o
+│   ├───p
+│   ├───q
+│   ├───r
+│   ├───s
+│   ├───t
+│   ├───u
+│   ├───v
+│   ├───w
+│   ├───x
+│   ├───y
+│   └───z
+├───common
+│   └───h
+│       └───i
+│           └───j
+│               └───k
+│                   └───l
+│                       └───m
+├───installer
+│   ├───installer_folder
+│   └───mode
+│       └───user_preferences
+├───src
+│   └───a
+│       └───b
+│           └───c
+│               └───d
+│                   └───e
+│                       └───f
+│                           └───g
+└───user
+    ├───user_eliza
+    │   ├───user_profile
+    │   │   └───Eliza Taylor
+    │   └───user_settings
+    │       ├───AppVersion
+    │       └───sampleAppv3
+    ├───user_jerico
+    │   ├───user_profile
+    │   │   └───jerico estabillo
+    │   └───user_settings
+    │       └───AppVersion
+    │           └───sampleApp_v2
+    └───user_juan
+        ├───user_preferences
+        ├───user_profile
+        │   └───Juan Pablo
+        └───user_settings
+            ├───AppVersion
+            └───sampleApp_V5
+
+C:\Users\dylan\Downloads\DOMINNO_KDD_OS-LQ1>
